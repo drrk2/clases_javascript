@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let palabra = 'Javascript';
+        document.write('la palabra es: ',palabra);
+        document.write('<br>');
+
+        /* Ver tamaño de un texto */
+document.write('cantidad de letras: ', palabra.length); //traes como propiedad con length saber la cantidad de letras
+document.write('<br>');
+
+/* ver caracteres especificos */
+document.write('Primeras 4 letras: ', palabra.slice(0,2)); //Primeras 4 letras
+document.write('<br>');
+
+document.write('Primeras 4 letras: ', palabra.substring(0,4)); //Primeras 4 letras
+document.write('<br>');
+
+/* Cambiar valores en un texto */
+let saludo = 'Hola a todos';
+saludo = saludo.replace('Hola', 'Adios'); //replace mi saludo reemplace el hola con adios
+document.write(saludo);
+document.write('<br>');
+
+//Poner en mayusculas
+document.write('en mayusculas: ', palabra.toUpperCase()); //tou hace que la palabra se convierta en mayusculas
+document.write('<br>');
+//Poner en minusculas
+document.write('en minusculas: ', palabra.toLowerCase()); //tou hace que la palabra se convierta en mayusculas
+document.write('<br>');
+
+//unir texto
+let palabra2 = 'Curso de ';
+document.write('unir palabras: ',palabra2.concat(palabra));
+document.write('<br>');
+
+//acortar espacios entre textos
+let palabra3 = '          Hola      ';
+document.write(palabra3);
+document.write('<br>');
+document.write(palabra3.trimStart()); //elimina espacios del lado izquierdo
+document.write('<br>');
+document.write(palabra3.trimEnd()); //elimina espacios del lado derecho
+document.write('<br>');
+
+//LA MAS UTIL SERIA:
+document.write(palabra3.trim()); //Quitar ambos espacios
+document.write('<br>');
+
+//Cortar cantidad de caracteres
+document.write(palabra.split('script')); //cortar de la variable el texto que te mande
+document.write('<br>');
+    </script>
+</body>
+</html>

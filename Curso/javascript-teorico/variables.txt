@@ -1,0 +1,50 @@
+las variables son contenedores para almacenar datos. puedes pensarlas como si fueran cajas, donde pones diferentes tipos de informacion.
+
+var: es la forma más antigua de declarar variables en JavaScript. Fue introducido en la primera versión del lenguaje y aún se puede usar, pero su uso ha disminuido en favor de let y const.
+let: Permite declarar variables que pueden ser cambiadas después de su inicialización.
+const Declara variables que no deben cambiar después de su inicialización.
+
+ejemplo:
+let nombre = 'Cesar'; // Declaración de variable con let
+const edad = 25; // Declaración de constante con const
+
+Tipos de datos: JavaScript tiene tipos de datos basicos
+
+String: Cadenas de texto. Ejemplo: "Hola Mundo"
+Number: Números, tanto enteros como decimales. Ejemplo: 10, 3.14
+Boolean: Valores de verdad (true o false). Ejemplo: true
+Null: Representa la ausencia de valor. Ejemplo: null
+Undefined: Una variable que no ha sido asignada a ningún valor. Ejemplo: undefined
+
+let nombre = "Cesar"; // String
+let edad = 25;        // Number
+let esEstudiante = true; // Boolean
+let direccion = null; // Null
+let telefono; // Undefined
+
+Operadores: Son simbolos que se utilizan para realizar operaciones sobre variables y valores.
+
+Operadores artimeticos:
++ Suma
+- Resta
+* Multiplicación
+/ División
+% Módulo (resto de la división)
+
+Operadores comparativos:
+== Igual a
+=== Igual a (estrictamente, también compara el tipo de dato)
+!= Diferente de
+!== Diferente de (estrictamente)
+> Mayor que
+< Menor que
+
+Ejemplo:
+let a = 10;
+let b = 5;
+
+console.log(a + b); // Suma: 15
+console.log(a > b); // Comparación: true
+console.log(a === 10); // Comparación estricta: true
+
+Estructuras de Control: permiten ejecutar diferentes bloques de código basados en condiciones o repetir un bloque de código varias veces.
